@@ -1,0 +1,7 @@
+com\orangeHRM\or\LoginPage.class
+com\org\reuse\Commonfunction.class
+com\org\scripts\Login_logout_ExcelTest.class
+com\orangeHRM\or\AddUserManagnment.class
+com\orangeHRM\or\HomePage.class
+com\org\scripts\Login_LogoutTest.class
+Utiles\Login_logout_ExcelTestcase.class
