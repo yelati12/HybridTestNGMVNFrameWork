@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.org.scripts.Login_Logout">
+      <class name="com.org.scripts.Login_LogoutTest">
         <methods>
           <include name="beforeClass"/>
           <include name="generateReport"/>
+          <include name="Login_LogoutTestcase"/>
           <include name="methodName"/>
-          <include name="addinguser"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.org.scripts.Login_Logout -->
+      </class> <!-- com.org.scripts.Login_LogoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

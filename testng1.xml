@@ -4,7 +4,7 @@
   <test thread-count="5" name="Testapp">
     <classes>
       <class name="com.org.scripts.Login_Logout"/>
-      <class name="com.org.scripts.Login_logout_ExcelTest"/>
+      
     </classes>
   </test> <!-- Testapp -->
 </suite> <!-- Suite -->

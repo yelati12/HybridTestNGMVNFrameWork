@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 
 public class StartBrowser {
@@ -55,8 +56,8 @@ public class StartBrowser {
 	//launching the browser and setup
   @BeforeClass
   public void beforeClass() {
-	  WebDriverManager.chromedriver().setup();
-	  driver = new ChromeDriver();
+	  WebDriverManager.safaridriver().setup();
+	  driver = new SafariDriver();
 	  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	  driver.manage().window().maximize();
 	  
