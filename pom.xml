@@ -93,7 +93,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M7</version>
 				<configuration>
-					<suiteXmlFiles>testng1.xml</suiteXmlFiles>
+					<suiteXmlFiles>testng.xml</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
