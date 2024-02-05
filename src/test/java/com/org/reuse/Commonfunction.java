@@ -43,7 +43,7 @@ public void  logintest(String email, String password) throws Exception {
 	}
 	
 	public void AddUser() throws Exception {
-		aDriver.click(HomePage.AddButton, "Add button");
+	   aDriver.click(HomePage.AddButton, "Add button");
 	   aDriver.type(HomePage.firstname, "Testing1", "User Entered First Name");
 	   aDriver.type(HomePage.MiddleName,"TestingMiddlename1", "user entered Middlename");
 	   aDriver.type(HomePage.LastName,"TestingLastname", "User Entered Last name");
