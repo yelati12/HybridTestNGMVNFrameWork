@@ -3,7 +3,7 @@
 <suite name="Failed suite [EndToEnd Testing]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Login_logout(failed)">
     <classes>
-      <class name="com.org.scripts.Login_Logout">
+      <class name="com.org.scripts.Login_LogoutTest">
         <methods>
           <include name="beforeClass"/>
           <include name="generateReport"/>
@@ -11,7 +11,7 @@
           <include name="addinguser"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.org.scripts.Login_Logout -->
+      </class> <!-- com.org.scripts.Login_LogoutTest -->
     </classes>
   </test> <!-- Login_logout(failed) -->
 </suite> <!-- Failed suite [EndToEnd Testing] -->

@@ -53,7 +53,6 @@ public void  logintest(String email, String password) throws Exception {
 	}
 
 
-		// TODO Auto-generated method stub
 		
 	}
 

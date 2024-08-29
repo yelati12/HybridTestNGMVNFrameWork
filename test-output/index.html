@@ -144,25 +144,22 @@
                   <a name="addinguser">
                   </a> <!-- addinguser -->
                   <span class="method-name">addinguser</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: 
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Yelatis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c004:325c:f035:9f7c:6290:7330%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.7&apos;
+System info: host: &apos;Yelatis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c004:384a:859b:4d46:21c9:54b8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 16.5.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22F82, safari:platformVersion: 13.4.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: AEA487A4-F4D9-42F3-B36C-6CD6F69AD93F
-*** Element info: {Using=xpath, value=//button[@class=&apos;oxd-button oxd-button--medium oxd-button--secondary&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.6, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 23G93, safari:platformVersion: 14.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 5408036E-EA31-4A6F-9F8F-A78AD1845E8C
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.orgwdcmds.ActionDriver.click(ActionDriver.java:48)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.orgwdcmds.ActionDriver.screenshot(ActionDriver.java:135)
+	at com.orgwdcmds.ActionDriver.click(ActionDriver.java:56)
 	at com.org.reuse.Commonfunction.AddUser(Commonfunction.java:46)
 	at com.org.scripts.Login_LogoutTest.addinguser(Login_LogoutTest.java:21)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -243,16 +240,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addinguser')
 data.setCell(0, 2, 'com.org.scripts.Login_LogoutTest')
-data.setCell(0, 3, 20267);
+data.setCell(0, 3, 13172);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Login_LogoutTestcase')
 data.setCell(1, 2, 'com.org.scripts.Login_LogoutTest')
-data.setCell(1, 3, 5686);
+data.setCell(1, 3, 5568);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -285,29 +282,31 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">312 ms</span>
+                <span class="method-start">436 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">methodName(public void com.org.scripts.Login_LogoutTest.Login_LogoutTestcase() throws java.lang.Throwable)</span>
-                <span class="method-start">1752 ms</span>
+                <span class="method-start">2464 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login_LogoutTestcase</span>
-                <span class="method-start">1762 ms</span>
+                <span class="method-start">2473 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">methodName(public void com.org.scripts.Login_LogoutTest.addinguser() throws java.lang.Exception)</span>
-                <span class="method-start">7460 ms</span>
+                <span class="method-start">8058 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">addinguser</span>
-                <span class="method-start">7461 ms</span>
+                <span class="method-start">8062 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">afterClass</span>
-                <span class="method-start">27733 ms</span>
+                <span class="method-start">21242 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeClass"/>
           <include name="generateReport"/>
-          <include name="Login_LogoutTestcase"/>
           <include name="methodName"/>
           <include name="addinguser"/>
           <include name="afterClass"/>

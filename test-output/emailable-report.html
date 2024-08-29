@@ -9,33 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Testapp</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,221</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Testapp</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,354</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testapp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.org.scripts.Login_LogoutTest</td><td><a href="#m0">addinguser</a></td><td rowspan="1">1707011535808</td><td rowspan="1">20267</td></tr><tr><th colspan="4">Testapp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.org.scripts.Login_LogoutTest</td><td><a href="#m1">Login_LogoutTestcase</a></td><td rowspan="1">1707011530109</td><td rowspan="1">5686</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testapp &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.org.scripts.Login_LogoutTest</td><td><a href="#m0">afterClass</a></td><td rowspan="1">1724457596469</td><td rowspan="1">98</td></tr><tr><th colspan="4">Testapp &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.org.scripts.Login_LogoutTest</td><td><a href="#m1">addinguser</a></td><td rowspan="1">1724457583289</td><td rowspan="1">13172</td></tr><tr><th colspan="4">Testapp &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.org.scripts.Login_LogoutTest</td><td><a href="#m2">Login_LogoutTestcase</a></td><td rowspan="1">1724457577700</td><td rowspan="1">5568</td></tr></tbody>
 </table>
-<h2>Testapp</h2><h3 id="m0">com.org.scripts.Login_LogoutTest#addinguser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: 
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<h2>Testapp</h2><h3 id="m0">com.org.scripts.Login_LogoutTest#afterClass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: 
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Yelatis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c004:325c:f035:9f7c:6290:7330%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.7&apos;
+System info: host: &apos;Yelatis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c004:384a:859b:4d46:21c9:54b8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.safari.SafariDriver
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 16.5.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22F82, safari:platformVersion: 13.4.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
-Session ID: AEA487A4-F4D9-42F3-B36C-6CD6F69AD93F
-*** Element info: {Using=xpath, value=//button[@class=&apos;oxd-button oxd-button--medium oxd-button--secondary&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.6, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 23G93, safari:platformVersion: 14.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 5408036E-EA31-4A6F-9F8F-A78AD1845E8C
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.orgwdcmds.ActionDriver.click(ActionDriver.java:48)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at com.org.config.StartBrowser.afterClass(StartBrowser.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.org.scripts.Login_LogoutTest#addinguser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Yelatis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c004:384a:859b:4d46:21c9:54b8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.6.1&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.6, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 23G93, safari:platformVersion: 14.6.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 5408036E-EA31-4A6F-9F8F-A78AD1845E8C
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.orgwdcmds.ActionDriver.screenshot(ActionDriver.java:135)
+	at com.orgwdcmds.ActionDriver.click(ActionDriver.java:56)
 	at com.org.reuse.Commonfunction.AddUser(Commonfunction.java:46)
 	at com.org.scripts.Login_LogoutTest.addinguser(Login_LogoutTest.java:21)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.org.scripts.Login_LogoutTest#Login_LogoutTestcase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.org.scripts.Login_LogoutTest#Login_LogoutTestcase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
